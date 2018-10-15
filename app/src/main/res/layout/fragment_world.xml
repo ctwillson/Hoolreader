@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".view.WorldFragment">
+
+    <!--<com.hooltech.reader.custom.TitleLayout-->
+        <!--android:id="@+id/titleLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<android.support.v7.widget.SearchView-->
+        <!--android:id="@+id/searchView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="right"-->
+        <!--app:iconifiedByDefault="false"-->
+        <!--android:paddingTop="20dp"/>-->
+
+    <include
+        layout="@layout/searchview_title"
+        android:id="@+id/search_title"
+        />
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/worldRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

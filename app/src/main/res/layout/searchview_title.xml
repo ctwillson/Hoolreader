@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:background="@drawable/shapeloginbutton">
+        <Button
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/ic_search"/>
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="今天想看什么书"
+            android:focusable="false"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="#0e0e0e"
+            android:textColorHint="#b0c6ce"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>
